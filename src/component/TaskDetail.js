@@ -21,7 +21,6 @@ class TaskDetail extends React.Component {
 
   render() {
     const { task, isComplete, taskName } = this.props;
-    console.log(task, taskName);
     return (
       <div>
         <input

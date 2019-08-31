@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { addToList, deleteTask, completeTask } from '../action/listAction';
-// import Button from '../component/Button';
-
 class InputField extends Component {
   state = {
     term: ''
